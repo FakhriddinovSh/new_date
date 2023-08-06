@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: sans-serif;
+    width: 95vw;
+    height: 90vh;
+    background-image: url("../nature.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box{
+    width: 600px;
+    height: 200px;
+    padding: 0 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 36px;
+    text-align: center;
+    letter-spacing: 5px;
+    line-height: 60px;
+    margin: 0 auto;
+    margin-top: 80px;
+    background-color: #00000076;
+}
